@@ -69,24 +69,42 @@
                                 </h3>
                                 <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Kerala, India</div>
                                 <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Web Developer - Palmate Solutions Pvt Ltd. Bangalore</div>
-                                <p>
+                                <p class="text-uppercase">
                                     Skills : 
-                                    <badge type="primary" class="text-uppercase">PHP</badge>
-                                    <badge type="primary" class="text-uppercase">Laravel</badge>
-                                    <badge type="primary" class="text-uppercase">Vue</badge>
-                                    <badge type="primary" class="text-uppercase">Firebase</badge>
-                                    <badge type="primary" class="text-uppercase">Bootstrap</badge>
-                                    <badge type="primary" class="text-uppercase">Javascript</badge>
-                                    <badge type="primary" class="text-uppercase">Flutter</badge>
-                                    <badge type="primary" class="text-uppercase">Linux</badge>
-                                    <badge type="primary" class="text-uppercase">Rest api</badge>
-                                    <badge type="primary" class="text-uppercase">mysql</badge>
+                                    <badge type="primary">PHP</badge>
+                                    <badge type="primary">Laravel</badge>
+                                    <badge type="primary">Vue.js</badge>
+                                    <badge type="primary">Firebase</badge>
+                                    <badge type="primary">Bootstrap</badge>
+                                    <badge type="primary">Javascript</badge>
+                                    <badge type="primary">SQL</badge>
+                                    <badge type="primary">Linux</badge>
+                                    <badge type="primary">Rest API</badge>
+                                    <badge type="primary">MySQL</badge>
+                                    <badge type="primary">CSS</badge>
+                                    <badge type="primary">NoSQL</badge>
+                                    <badge type="primary">JQuery</badge>
+                                    <badge type="primary">Git</badge>
+                                    <badge type="primary">Razorpay</badge>
+                                    <badge type="primary">Bagisto</badge>
+                                    <badge type="primary">Envoyer</badge>
+                                    <badge type="primary">Tailwind CSS</badge>
+                                    <badge type="primary">Postman</badge>
+                                    <badge type="primary">Cashier</badge>
+                                    <badge type="primary">Horizon</badge>
+                                    <badge type="primary">Passport</badge>
+                                    <badge type="primary">Socialite</badge>
+                                    <badge type="primary">Windows</badge>
+                                    <badge type="primary">Bitbucket</badge>
+                                    <badge type="primary">gitlab</badge>
+                                    <badge type="primary">github</badge>
+                                    <badge type="primary">Telescope</badge>
                                 </p>
                             </div>
                             <div class="mt-5 py-5 border-top text-center">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-9">
-                                        <p>Skilled profile in software Base and have a liquidfied experience in Web development strategies, have various involment in Web developing strategies.</p>
+                                        <p>Skilled profile in software Base and have a liquidfied experience and various involment in Web developing strategies.</p>
                                     </div>
                                 </div>
                             </div>
