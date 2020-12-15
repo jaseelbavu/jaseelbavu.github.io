@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/9554e601b54436dfd619.worker.js"
   },
   {
-    "revision": "c1733565b32b585676302d4233c39da8",
-    "url": "/fonts/nucleo-icons.c1733565.eot"
-  },
-  {
     "revision": "426439788ec5ba772cdf94057f6f4659",
     "url": "/fonts/nucleo-icons.42643978.woff2"
+  },
+  {
+    "revision": "c1733565b32b585676302d4233c39da8",
+    "url": "/fonts/nucleo-icons.c1733565.eot"
   },
   {
     "revision": "2569aaea6eaaf8cd210db7f2fa016743",
