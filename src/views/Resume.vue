@@ -2,19 +2,13 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h4 class="card-title text-center text-primary"><b>RESUME</b></h4>
                 <div class="row justify-content-center">
-                    <div class="input-group mb-3 w-25">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text form-control-sm" id="page-count">Page :</span>
-                        </div>
-                        <input v-model.number="page" type="number" class="form-control form-control-sm" min="1" max="2" aria-describedby="page-count">
-                    </div>
-                    <span class="ml-2"> / {{numPages}}</span>
+                    <h4 class="card-title text-center text-primary"><b>RESUME</b></h4>
                     <div class="ml-5">
-                        <button class="btn btn-light btn-sm" @click="rotate -= 90"><i class="fa fa-undo" aria-hidden="true"></i></button>
-                        <button class="btn btn-light btn-sm" @click="rotate += 90"><i class="fa fa-repeat" aria-hidden="true"></i></button>
-                        <a :href="`${publicPath}pdf/JASEELPVRESUME.pdf`" class="btn btn-light btn-sm" download="JASEELPVRESUME"><i class="fa fa-download" aria-hidden="true"></i> Download</a>
+                        <span class="mr-4">Page {{page}} / {{numPages}}</span>
+                        <button class="btn btn-light btn-sm" @click="page = 2" :disabled="page == 2"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                        <button class="btn btn-light btn-sm" @click="page = 1" :disabled="page == 1"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+                        <a :href="`${publicPath}pdf/JASEELPVRESUME.pdf`" class="btn btn-light btn-sm" download="JASEELPVRESUME" title="Download"><i class="fa fa-download" aria-hidden="true"></i></a>
                     </div>
                 </div>
 

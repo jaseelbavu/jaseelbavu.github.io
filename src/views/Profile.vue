@@ -26,14 +26,14 @@
                             </div>
                             <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                                 <div class="card-profile-actions py-4 mt-lg-0">
-                                    <a href="/#/resume.pdf" target="_blank">
-                                        <base-button type="warning" size="sm" class="mr-1"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Resume</base-button>
+                                    <a href="/#/resume.pdf" target="_blank" title="Resume">
+                                        <base-button type="warning" size="sm" class="mr-2"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></base-button>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/jaseel-pv" target="_blank">
-                                        <base-button type="info" size="sm" class="mr-1"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</base-button>
+                                    <a href="https://www.linkedin.com/in/jaseel-pv" target="_blank" title="LinkedIn">
+                                        <base-button type="info" size="sm" class="mr-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></base-button>
                                     </a>
-                                    <a href="https://github.com/jaseelbavu" target="_blank">
-                                        <base-button type="default" size="sm" class="mr-1"><i class="fa fa-github-square" aria-hidden="true"></i> Github</base-button>
+                                    <a href="https://github.com/jaseelbavu" target="_blank" title="Github">
+                                        <base-button type="default" size="sm" class="mr-2"><i class="fa fa-github-square" aria-hidden="true"></i></base-button>
                                     </a>
                                 </div>
                             </div>

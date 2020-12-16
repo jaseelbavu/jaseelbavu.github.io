@@ -55,6 +55,8 @@
 
         @include media-breakpoint-down(xs) {
             .card-profile-actions {
+                display: flex;
+                justify-content: center;
                 margin-top: 110px;
             } 
         }
