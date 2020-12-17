@@ -6,6 +6,7 @@ import Resume from "./views/Resume.vue";
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
   linkExactActiveClass: "active",
   routes: [
     {
