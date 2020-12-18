@@ -17,7 +17,7 @@ export default new Router({
       }
     },
     {
-      path: "/resume.pdf",
+      path: "/resume",
       name: "resume",
       components: {
         default: Resume,
