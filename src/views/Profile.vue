@@ -26,7 +26,7 @@
                             </div>
                             <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                                 <div class="card-profile-actions py-4 mt-lg-0">
-                                    <a href="/resume" target="_blank" title="Resume">
+                                    <a href="/#/resume" target="_blank" title="Resume">
                                         <base-button type="warning" size="sm" class="mr-2"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></base-button>
                                     </a>
                                     <a href="https://www.linkedin.com/in/jaseel-pv" target="_blank" title="LinkedIn">
