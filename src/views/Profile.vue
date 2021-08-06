@@ -32,9 +32,6 @@
                                     <a href="https://www.linkedin.com/in/jaseel-pv" target="_blank" title="LinkedIn">
                                         <base-button type="info" size="sm" class="mr-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></base-button>
                                     </a>
-                                    <a href="https://github.com/jaseelbavu" target="_blank" title="Github">
-                                        <base-button type="default" size="sm" class="mr-2"><i class="fa fa-github-square" aria-hidden="true"></i></base-button>
-                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-4 order-lg-1">
@@ -65,10 +62,10 @@
                         <div v-if="tab == 'profile'">
                             <div class="text-center mt-5">
                                 <h3>Jaseel P V
-                                    <span class="font-weight-light">, 25</span>
+                                    <span class="font-weight-light">, {{age}}</span>
                                 </h3>
-                                <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Kerala, India</div>
-                                <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Web Developer - Palmate Solutions Pvt Ltd. Bangalore</div>
+                                <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Bangalore, India</div>
+                                <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Backend Developer | Product Developer | Startup Enthusiastic | Freelancer | Entrepreneurial Thinker</div>
                                 <p class="text-uppercase">
                                     Skills : 
                                     <badge type="primary">PHP</badge>
@@ -99,6 +96,7 @@
                                     <badge type="primary">gitlab</badge>
                                     <badge type="primary">github</badge>
                                     <badge type="primary">Telescope</badge>
+                                    <badge type="primary">Project Management</badge>
                                 </p>
                             </div>
                             <div class="mt-5 py-5 border-top text-center">
@@ -184,8 +182,25 @@
 
                         <div class="text-center mt-5 py-5" v-else-if="tab == 'experience'">
                             <h3 class="mb-5"><i class="ni ni-laptop"></i> Experience</h3>
+
                             <div class="row justify-content-center p-2">
                                 <div class="col-lg-9 border-bottom-dotted">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="content-image">
+                                                <img v-lazy="'img/theme/company.png'" class="rounded-circle">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10 text-left mt--20">
+                                            <h6 class="text-primary font-weight-bold">Al Zarooni Group of Companies</h6>
+                                            <span>Dubai, United Arab Emirates</span><br>
+                                            <span class="font-weight-bold">Laravel DEVELOPER</span><br>
+                                            <span>January 2021 to March 2021</span><br>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-9 border-bottom-dotted mt-5">
                                     <div class="row">
                                         <div class="col-md-2">
                                             <div class="content-image">
@@ -231,13 +246,25 @@
 export default {
     data() {
         return {
-            tab: 'profile'
+            tab: 'profile',
+            age: ''
         };
+    },
+
+    mounted: function() {
+        this.updateAge();
     },
 
     methods: {
         tabChange: function (tabName) {
             this.tab = tabName;
+        },
+
+        updateAge: function() {
+            var dob = new Date('1995-11-09');
+            var today = new Date();
+            var age = Math.floor((today-dob) / (365.25 * 24 * 60 * 60 * 1000));
+            this.age = age;
         }
     }
 };
