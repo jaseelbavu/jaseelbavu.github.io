@@ -32,9 +32,9 @@
                                     <a href="https://www.linkedin.com/in/jaseel-pv" target="_blank" title="LinkedIn">
                                         <base-button type="info" size="sm" class="mr-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></base-button>
                                     </a>
-                                    <a href="https://www.instagram.com/jaseel_bavu" target="_blank" title="Instagram">
+                                    <!-- <a href="https://www.instagram.com/jaseel_bavu" target="_blank" title="Instagram">
                                         <base-button type="danger" size="sm" class="mr-2"><i class="fa fa-instagram" aria-hidden="true"></i></base-button>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                             <div class="col-lg-4 order-lg-1">
@@ -73,7 +73,7 @@
                             <div class="mt-5 py-5 border-top text-center">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-9">
-                                        <p>On my way to new mistakes.</p>
+                                        <p>Learn . Grow . Acheive</p>
                                     </div>
                                 </div>
                             </div>
