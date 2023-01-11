@@ -7,6 +7,8 @@ Vue.use(Router);
 
 export default new Router({
   linkExactActiveClass: "active",
+  mode: 'history',
+  hash: false,
   routes: [
     {
       path: "/",
@@ -22,6 +24,7 @@ export default new Router({
         default: Resume,
       }
     },
+    { path: '*', redirect: '/' },
   ],
   scrollBehavior: to => {
     if (to.hash) {

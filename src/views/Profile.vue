@@ -21,14 +21,14 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-3 order-lg-2">
                                 <div class="card-profile-image">
-                                    <img v-lazy="'img/theme/jb.jpeg'" class="rounded-circle">
+                                    <img v-lazy="'img/theme/jb.png'" class="rounded-circle">
                                 </div>
                             </div>
                             <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                                 <div class="card-profile-actions py-4 mt-lg-0">
-                                    <!-- <a href="/#/resume" target="_blank" title="Resume">
+                                    <a href="/resume" target="_blank" title="Resume">
                                         <base-button type="warning" size="sm" class="mr-2"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></base-button>
-                                    </a> -->
+                                    </a>
                                     <a href="https://www.linkedin.com/in/jaseel-pv" target="_blank" title="LinkedIn">
                                         <base-button type="info" size="sm" class="mr-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></base-button>
                                     </a>
@@ -109,7 +109,7 @@
                                         </div>
                                         <div class="col-md-10 text-left mt--20">
                                             <h6 class="text-primary font-weight-bold">Assabah Arts and Science College Valayamkulam</h6>
-                                            <span>2013 to 2016 - Master of Computer Application - Changaramkulam, India</span>
+                                            <span>2013 to 2016 - Bachelor of Computer Application - Changaramkulam, India</span>
                                         </div>
                                     </div>
                                 </div>
@@ -189,6 +189,22 @@
 
                             <div class="row justify-content-center p-2">
                                 <div class="col-lg-9 border-dotted">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="content-image">
+                                                <img v-lazy="'img/theme/hrv-logo.png'" class="rounded-circle">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10 text-left mt--20">
+                                            <h6 class="text-primary font-weight-bold">High Root Ventures LLP</h6>
+                                            <span>Chalissery ,Kerala, India</span><br>
+                                            <span class="font-weight-bold">CO-FOUNDER AND WEB DEVELOPER</span><br>
+                                            <span>December 2021 to Present</span><br>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-9 border-dotted mt-1">
                                     <div class="row">
                                         <div class="col-md-2">
                                             <div class="content-image">
